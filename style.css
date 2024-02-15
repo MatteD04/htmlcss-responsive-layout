@@ -3,3 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*BUTTONS*/
+.btn-white{
+    margin: auto;
+    padding: 8px 10px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+/*GENERAL*/
+header{
+    background-color: rgb(0, 128, 255);
+}
+
+/*header*/
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.col-right{
+    display: flex;
+}
+.col-right ul,a{
+    display: flex;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+.col-right li{
+    padding-right: 25px;
+    padding-top: 6px;
+}
+.col-right i{
+    color: #fff;
+    display: none;
+    font-size: 20px;
+}
+
+/*responsivity*/
+/*media for tablet (0-992px)*/
+@media screen and (max-width:992px){
+    .col-right i{
+        display: block;
+    }
+    .col-right li,button{
+        display: none;
+    }
+}
+
+/*media for smartphone (0-768px)*/
