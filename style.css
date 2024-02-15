@@ -19,6 +19,11 @@
     background-color: #0084fd;
     color: #fff;
 }
+.btn-purple{
+    border-radius: 50%;
+    padding: 16px 20px;
+    background-color: #9792e4;
+}
 
 /*GENERAL*/
 header{
@@ -111,6 +116,50 @@ header{
     padding-bottom: 30px;
     line-height: 1.5;
     font-size: 20px;
+}
+
+/*section planning*/
+#planning{
+    background-color: #9792e4;
+    margin-top: 50px;
+}
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px 0 50px 0;
+}
+.col-a{
+    width: 50%;
+    color: #fff;
+}
+.col-a h2{
+    padding: 80px 0 40px 0;
+}
+.col-a p{
+    padding-right: 50px;
+}
+.col-a p, .col-b p{
+    line-height: 1.5;
+}
+.col-b{
+    width: 50%;
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+.col-b h3{
+    padding: 30px 0
+}
+.col-b p{
+    padding: 0 20px 40px 20px;
+}
+.col-a img{
+    width: 80%;
+}
+.col-b img{
+    width: 60%;
 }
 
 
