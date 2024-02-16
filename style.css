@@ -1,7 +1,13 @@
+/*RESET*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*TYPOGRAPHY*/
+body{
+    font-family: 'PT Sans', sans-serif;
 }
 
 /*BUTTONS*/
@@ -91,7 +97,8 @@ header{
     flex-wrap: wrap;
 }
 .col-intro img{
-    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0;
 }
 .card{
     background-color: #b5ddff;
@@ -104,7 +111,7 @@ header{
     color: #0084fd;
 }
 .card .awesome{
-    font-size: 100px;
+    font-size: 80px;
 }
 .card-1{
     text-align: center;
@@ -115,7 +122,8 @@ header{
 .card p{
     padding-bottom: 30px;
     line-height: 1.5;
-    font-size: 20px;
+    font-weight: 700;
+    color: #555;
 }
 
 /*section planning*/
@@ -181,7 +189,7 @@ header{
         width: 100%;
     }
     .col-intro img{
-        width: 50%;
+        max-width: 50%;
         padding-top: 20px;
     }
 }
