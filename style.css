@@ -195,7 +195,7 @@ header{
     align-items: center;
     background-color: #9792e4;
     color: #fff;
-    padding: 20px 30px 20px 0;
+    padding: 20px 0;
     margin-bottom: 20px;
     border-radius: 20px;
 }
@@ -258,5 +258,9 @@ header{
 @media screen and (max-width:768px){
     #intro .col{
         width: 100%;
+    }
+    .description-partners{
+        display: block;
+        text-align: center;
     }
 }
