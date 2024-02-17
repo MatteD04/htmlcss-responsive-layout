@@ -177,6 +177,33 @@ header{
     margin-bottom: 30px;
 }
 
+/*section partners*/
+.title-partners{
+    text-align: center;
+    padding: 50px 0 20px 0;
+}
+.title-partners p{
+    padding-bottom: 20px;
+}
+.title-partners h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: #9792e4;
+}
+.description-partners{
+    display: flex;
+    align-items: center;
+    background-color: #9792e4;
+    color: #fff;
+    padding: 20px 10px 20px 0;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.description-partners img{
+    clip-path: circle();
+    width: 200px;
+    margin-left: -20px;
+}
 
 
 
