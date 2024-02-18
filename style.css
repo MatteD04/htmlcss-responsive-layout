@@ -336,6 +336,19 @@ header{
     color: #fff;
 }
 
+/*FOOTER*/
+footer{
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    padding: 30px 0;
+}
+footer a{
+    color: #9792e4;
+}
+
 /*responsivity*/
 /*media for tablet (0-992px)*/
 @media screen and (max-width:992px){
