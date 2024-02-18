@@ -37,6 +37,15 @@ body{
     border: none;
     border-radius: 20px;
     letter-spacing: 2px;
+    cursor: pointer;
+}
+.btn-purple-linkedin{
+    padding: 8px 12px;
+    background-color: #9792e4;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 /*GENERAL*/
@@ -251,6 +260,42 @@ header{
 .info-card p{
     color: #666;
     padding-bottom: 15px;
+}
+
+/*section about-us*/
+.about-us{
+    display: flex;
+}
+.col-par h1{
+    color: #9792e4;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.col-par p{
+    padding-bottom: 30px;
+    padding-right: 80px;
+    line-height: 2;
+}
+.col-img{
+    padding-right: 50px;
+}
+.col-img img{
+    max-width: 250px;
+    clip-path: circle();
+    margin-bottom: 20px;
+}
+.col-img h2{
+    color: #9792e4;
+    padding-bottom: 20px;
+}
+.img{
+    position: relative;
+}
+.marks{
+    position: absolute;
+    color: #9792e4;
+    font-size: 80px;
+    right: 0;
 }
 
 
