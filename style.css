@@ -362,4 +362,11 @@ header{
     .info-card{
         width: 100%;
     }
+
+    .about-us{
+        display: block;
+    }
+    .marks{
+        left: 180px;
+    }
 }
