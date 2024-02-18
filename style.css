@@ -16,14 +16,18 @@ body{
     border-radius: 25px;
     border: none;
     cursor: pointer;
+    color: #fff;
+}
+.btn-letter{
+    letter-spacing: 2px;
 }
 .btn-white{
     padding: 8px 10px;
+    color: black;
 }
 .btn-blue{
     padding: 8px 40px;
     background-color: #0084fd;
-    color: #fff;
 }
 .btn-purple-circle{
     border-radius: 50%;
@@ -33,26 +37,17 @@ body{
 .btn-purple-more{
     padding: 8px 40px;
     background-color: #9792e4;
-    color: #fff;
-    border: none;
     border-radius: 20px;
-    letter-spacing: 2px;
-    cursor: pointer;
 }
 .btn-purple-linkedin{
     padding: 8px 12px;
     background-color: #9792e4;
-    color: #fff;
-    border: none;
     border-radius: 20px;
-    cursor: pointer;
 }
 .btn-started{
     padding: 20px 60px;
-    border: none;
     border-radius: 30px;
     color: #9792e4;
-    letter-spacing: 2px;
 }
 
 /*GENERAL*/
@@ -246,7 +241,6 @@ header{
 .row-benefit{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     padding-bottom: 20px;
 }
 .info-card{
